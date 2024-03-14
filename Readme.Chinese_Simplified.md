@@ -81,10 +81,11 @@ Pascal Gilcher团队是ReShade中非常知名的付费效果库开发团队，�
 | **非官方ReShade** | ReShade 4.9.2 UnOfficial移除网络通信验证版本*1 | [官方仓库](https://github.com/crosire/reshade),[官方网站](https://reshade.me/) |
 | **Crosire的ReShade注入器** | 这只是一个注入器 | [前往ReShade官方仓库查看源码](https://github.com/crosire/reshade/blob/main/tools/injector.cpp) |
 
-
 *1:自ReShade Official V5.X.X版本开始,从官网上下载的'with full add-on support'安装程序内的ReShade32.dll和ReShade64.dll就已经移除了网络通信验证。而在此之前的ReShade Official所有安装包内的ReShade32.dll和ReShade64.dll均含有网络通信验证。  
 
 网络通信验证会检测游戏在游戏具有高网络请求的时候自动禁用ReShade以防止反作弊检测到ReShade进而导致游戏账号出现封禁(来自ReShade官方的描述)，但这很显然不适用于MiHoYo/HoYoVerse旗下的游戏中。所以我们需要移除网络通信验证以让ReShade可以正常在MiHoYo/HoYoVerse旗下游戏运行。  
+
+## 
 
 对于V2.X.X版本:  
 
